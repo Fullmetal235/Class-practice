@@ -17,7 +17,7 @@ class teacher extends person{
     constructor(addons){
         super(addons);
         this.Specialty = addons.specialty;
-        this.location - addons.location;
+        this.location = addons.location;
     }
 }
 let Carl = new teacher({
@@ -29,4 +29,4 @@ let Carl = new teacher({
 })
 console.log(jarvise.speak());
 console.log(jarvise);
-console.log(Carl)
+console.log(Carl);
